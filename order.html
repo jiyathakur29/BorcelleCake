@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/order.css">
+    <title>Order Now</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="src/img/logo.png" alt="Cake Logo">
+            Borcelle Cake
+        </div>
+        <ul class="navbar-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#best-selling">Best Selling</a></li>
+            <li><a href="index.html#menu">Menu</a></li>
+            <li><a href="index.html#specials">Special Offers</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="order-section">
+        <h2 class="section-title">Order Your Cake</h2>
+        <div class="form-container">
+            <form class="order-form">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="cake">Select Cake</label>
+                    <select id="cake" name="cake" required>
+                        <option value="">--Select Cake--</option>
+                        <option value="chocolate">Chocolate Cake</option>
+                        <option value="vanilla">Vanilla Cake</option>
+                        <option value="redvelvet">Red Velvet Cake</option>
+                        <option value="carrot">Carrot Cake</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="weight">Weight (in kg)</label>
+                    <input type="number" id="weight" name="weight" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea id="address" name="address" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Place Order</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#best-selling">Best Selling</a></li>
+                    <li><a href="index.html#menu">Menu</a></li>
+                    <li><a href="index.html#specials">Special Offers</a></li>
+                    <li><a href="index.html#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com" class="social-icon">Facebook</a></li>
+                    <li><a href="https://www.x.com" class="social-icon">Twitter</a></li>
+                    <li><a href="https://www.instagram.com" class="social-icon">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Cake Delight. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
